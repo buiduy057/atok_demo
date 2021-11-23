@@ -1,0 +1,14 @@
+#footer {
+    background: #020f22;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+}
+#footer img {
+    width: 15%;
+    height: 50px;
+}
+#footer p {
+    font-size: 18px;
+    margin: 5px 0;
+}

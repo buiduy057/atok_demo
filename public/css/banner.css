@@ -1,0 +1,52 @@
+section .banner {
+    position: relative;
+}
+section > .banner > img {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+}
+section .banner .text {
+    position: absolute;
+    top: 4em;
+    left: 7em;
+}
+section .banner .text p {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+}
+section .banner .text img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+section .banner .text a {
+    padding: 10px 20px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.banner-footer-img img {
+    width: 45%;
+    height: 50%;
+    position: absolute;
+    right: 2%;
+    bottom: -13%;
+}
+
+@media screen and (max-width: 992px) {
+    section .banner .text {
+        left: 3em;
+    }
+    .banner-footer-img img {
+        width: 45%;
+        height: 40%;
+        right: 3%;
+        bottom: -9%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+}
